@@ -8,7 +8,7 @@ def CountingItems(items):
     result=  {
         'countThis': items.count('this'),
         'countThe': items.count('the'),
-        'countThose': items.count('those')
+        'countThere': items.count('there')
     }
     return result
 
